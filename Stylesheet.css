@@ -1,0 +1,237 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color: rgb(244, 244, 244);
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header */
+header{
+  background:#35424a;
+  color:white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:rgb(79, 175, 214) 3px solid;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+/* Subtitle */
+header #title{
+  float:left;
+}
+
+header #title h1{
+  margin:0;
+}
+
+header nav {
+  float:right;
+  margin-top: 10px;
+}
+
+header .current a{
+  color:rgb(79, 175, 214);
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  height:450px;
+  background:url("Showcase-topology3.jpg") no-repeat;
+  text-align:center;
+  color:white;
+  background-size: cover;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size:56px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size: 21px;
+}
+
+/* Showcase2 */
+#showcase2{
+  height:250px;
+  background:url("Showcase-about.jpg") no-repeat;
+  text-align:center;
+  color:white;
+  background-size: cover;
+}
+
+#showcase2 h1{
+  margin-top: 90px;
+  font-size:45px;
+  margin-bottom:60px;
+}
+
+/* Line bar thing */
+#whatsonthiswebsite{
+  padding:15px;
+  color:white;
+  background:#35424a;
+}
+
+#whatsonthiswebsite h1{
+  text-align: center;
+  font-size: 29px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float:left;
+  width:30%;
+  padding:17px;
+  text-align:center;
+}
+
+/* Sidebard */
+aside#sidebar{
+  float:right;
+  width:20%;
+  margin-top: 10px;
+}
+
+#sidebarpics{
+  width:200px;
+  margin-top:150px;
+}
+
+#sidebarpic2{
+margin-top:50px;
+height:80px;
+margin-left:80px;
+}
+
+#sidebarpic3{
+  margin-top:90px;
+  height:100px;
+  margin-left:40px;
+}
+
+#sidebarpic4{
+  margin-top: 210px;
+  width:180px;
+  margin-left: 30px;
+}
+
+#sidebarpic5{
+  margin-top: 285px;
+  width:150px;
+  margin-left:40px;
+}
+
+
+/* Article*/
+article#main-col{
+  float:left;
+  width:75%
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:white;
+  background-color: rgb(44, 127, 160);
+  text-align: center;
+}
+.page-title{
+  font-size: 25px;
+  text-decoration: underline;
+  color:rgb(35, 80, 178);
+}
+
+h2{
+  color:rgb(79, 175, 214);
+}
+
+/*Showcase-types */
+#showcase3{
+  height:250px;
+  background:url("Showcase-types.jpg") no-repeat;
+  text-align:center;
+  color:white;
+  background-size: cover;
+}
+
+#showcase3 h1{
+  margin-top: 90px;
+  font-size:45px;
+  margin-bottom:60px;
+}
+
+/*Showcase-prosandcones */
+#showcase4{
+  height:250px;
+  background:url("Showcase-prosandcons.jpg") no-repeat 0 -150px;
+  text-align:center;
+  color:white;
+  background-size: cover;
+
+}
+
+#showcase4 h1{
+  margin-top: 90px;
+  font-size:45px;
+  margin-bottom:60px;
+}
+
+/* Prosandcons */
+h4{
+  font-size:20px;
+  color:rgb(19, 93, 122);
+}
+
+/*Showcase-sources */
+#showcase6{
+  height:250px;
+  background:url("Showcase-sources.jpg") no-repeat;
+  text-align:center;
+  color:white;
+  background-size: cover;
+}
+
+#showcase6 h1{
+  margin-top: 90px;
+  font-size:45px;
+  margin-bottom:60px;
+}
