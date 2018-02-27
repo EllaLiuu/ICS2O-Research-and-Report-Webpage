@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ella Liu">
+        <meta name="description" content="All about network topologies and the various types, along with their pros and cons.">
+        <meta name="keywords" content="topologies, network, bus, ring, star, mesh, tree, hybrid, point-to-point, fully connected">
+        <title>Network Topologies</title>
+        <link rel=stylesheet href="Stylesheet.css">
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <div id="title">
+            <h1>Network Topologies</h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="Topology-Report.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="types.html">Types</a></li>
+              <li class="current"><a href="prosandcons.html">Pros and Cons</a></li>
+              <li><a href="sources.html">Sources</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section id="showcase4">
+        <div class="container">
+          <h1>Pros And Cons Of Each Type Of Network Topology</h1>
+        </div>
+      </section>
+
+      <section id="main">
+        <div class="container">
+            <h1 class="page-title">Advantages And Disadvantages Of Different Types Of Network Topologies</h1>
+            <p>Every type of network topology has their different pros and cons. Therefore, it’s important to know the pros and cons of each type so that when choosing one, you can be assured the best fit.
+            </p>
+            <h2>Bus Topology</h2>
+            <img id="bus" src="http://farid-tech.com/wp-content/uploads/2018/01/bus_topology.jpg" alt="Bus topology" margin-right:"20" width="350" height="200">
+            <h4>Pros:</h4>
+            <ol>
+              <li>It’s easy to connect nodes and devices since all you have to do is connect it to the backbone.
+              </li>
+              <li>Does not require a lot of cable since it consists of one simple wire that connects everything.
+              </li>
+              <li>It’s an inexpensive type of topology as the chords are not expensive and you don’t need a lot of the chords either.
+              </li>
+              <li>It’s very simple if you want to expand the network. All you have to do is connect more cables.
+               </li>
+              <li>It can work really nicely if you have a small network like in LAN.
+              </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>The whole network shuts down if there is a break in the backbone wire. This happens because everything is connect by that one cable. It’s a bit like old Christmas lights, when one bulb stopped working, the entire thing stopped working.</li>
+              <li>Hard to fix the problem since the entire network shuts down after there is a break in the cable. </li>
+              <li>If there are a lot of nodes connected, the performance and speed of the network goes down.</li>
+              <li>The cable has a limited length which means it can’t extend out too far. </li>
+              <li>You need terminators at the ends of the cable or else the signals will continue to go back in forth in the cable. </li>
+              <li>Security is an issue since all the nodes connected the the cable receive the signals from the source. Therefore, if the source sent a virus, all the computers connected to the backbone would receive the virus. </li>
+            </ol>
+
+            <h2>Star Topology</h2>
+            <img src="http://allroundcomputersolutions.weebly.com/uploads/7/5/0/7/750797/4779700.jpg?540" aly="Star Topology" width="350" height="200">
+            <h4>Pros:</h4>
+            <ol>
+              <li>If one node malfunctions, it will not affect all the other nodes and the network will continue to run, just without the one malfunctioning node.
+              </li>
+              <li>Easy to set up and make changes since every node is connected with their own cable. Therefore, it’s very easy to add more nodes onto the network.
+              </li>
+              <li>Easy to troubleshoot since every node is connected separately, so if one node malfunctions, the network will continue to run so we can easily see which node isn’t working.
+              </li>
+              <li>When there are not many nodes and there is low traffic, it has a fast performance.
+               </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>If the central device fails, then the entire network will shut down and will not work since all the signals are sent to the central device before being transmitted. </li>
+              <li>The amount of cable required is quite a lot since each node has to be individually attached the central device.</li>
+              <li>Since it requires more cable, it’s more expensive than some of the other topologies like the bus one.</li>
+            </ol>
+            <h2>Mesh Topology</h2>
+            <img src="https://www.ccexpert.us/network-design-2/images/7948_141_151-partial-and-full-mesh-topology.jpg" alt="Full and partial mesh topology." width="350" height="200">
+            <h4>Pros:</h4>
+            <ol>
+              <li>Very redundant and reliable since either all the nodes or most of the nodes are connected to each other. Therefore, if there is a failure in one node, it will not impact the network as it will continue to run and the signala will continue to be transmitted as well.
+              </li>
+              <li>Troubleshooting can easily be done since the network continues to work even when a node is malfunctioning.
+              </li>
+              <li>This type of topology can handle large amounts of traffic since many nodes can transmit data at the same time.
+              </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>Expensive since all the cabling required to connect the nodes with each other.</li>
+              <li>It can be annoying since all the cables required take up a big amount of space.</li>
+              <li>Installation and adding nodes onto the network can be difficult since the wires can make it confusing.</li>
+            </ol>
+            <h2>Ring Topology</h2>
+            <img src="http://2.bp.blogspot.com/-NEhuDEZecJ4/VZoT0rAGyYI/AAAAAAAAASk/BgEhiYIpe98/s640/ring_topology.jpg" alt="Ring topology." width="350" height="200">
+            <h4>Pros:</h4>
+            <ol>
+              <li>When there are a lot of nodes or high traffic, the network performance and speed is not impacted since only the nodes with the token can release information onto the server.
+              </li>
+              <li>Easy to expand since all you have to do is connect the node.
+              </li>
+              <li>In order to function a central node device is not required.
+              </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>When one node malfunctions, the entire network stops working since all the nodes are connected.</li>
+              <li>Hard to troubleshoot since when a node stops working, the entire network stops working so it’s difficult to tell which node has the problem. </li>
+              <li>Since the signals have to pass through every node, it can make the network slower then some other network topologies like the star.</li>
+              <li>Not a lot of privacy or security as the signals are passed to every node until the reach the intended one. </li>
+            </ol>
+            <h2>Tree Topology</h2>
+            <img src="http://flylib.com/books/4/152/1/html/2/images/13fig03.jpg" alt="Tree topology" width="350" height="200">
+            <h4>Pros:</h4>
+            <ol>
+              <li>It’s good when dealing with large networks like WAN because it’s able to seperate the network into parts which makes it more easy to manage.
+              </li>
+              <li>Expanding the network by adding more nodes is easy to do.
+              </li>
+              <li>Troubleshooting is easy.
+              </li>
+              <li>If a node within a star malfunctions, it will not affect anything.
+              </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>When more nodes are added, it becomes difficult to maintain.</li>
+              <li>Requires a lot of cable as you need to connect each node to the central server device and that central server device needs to be connected to the main cable.</li>
+              <li>Due to the large amount of cable used it can be expensive. </li>
+              <li>If the backbone breaks, there will be problem since the stars/networks will not be able to communicate with each other.  However, the devices inside each star are able to communicate within themselves. </li>
+            </ol>
+            <h2>Hybrid Topology</h2>
+            <img src="https://steemitimages.com/0x0/https://img.esteem.ws/5wxsfpguqz.jpg" alt="Example of hybrid topology." width="350" height="200">
+            <h4>Pros:</h4>
+            <ol>
+              <li>Reliable and easy to troubleshoot because it’s easy to find where the problem is located and to isolate it from the rest of the network so it can continue to function.
+              </li>
+              <li>Easy to expand since all you have to do is add another type of topology.
+              </li>
+              <li>Very flexible design since you can choose which types of topology you want to combine, based on what your needs are.
+              </li>
+              <li>It is effective since when combining two different types of topologies, you can pair them with a type of topology which will minimize their weaknesses or neutralize them.
+              </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>It involves a complex design since many different types of topologies are being mixed together. </li>
+              <li>In hybrid topologies there are so many devices and cables needed which can make it extremely expensive.</li>
+            </ol>
+            <h2>Point-to-Point Topology</h2>
+            <img src="https://www.tutorialspoint.com/data_communication_computer_network/images/p2p_topology.jpg" alt="Point-to-point topology" width="550" height="150">
+            <h4>Pros:</h4>
+            <ol>
+              <li>It is super reliable since there is a direct connection between the two nodes.
+              </li>
+              <li>Easy to setup since it only involves two nodes and a chord.
+              </li>
+            </ol>
+            <h4>Cons:</h4>
+            <ol>
+              <li>Can only be used in small areas where the nodes are located close to each other.</li>
+              <li>Very inexpensive as you do not need a lot of materials and cables compared to other types of topology. </li>
+            </ol>
+        </div>
+      </section>
+
+      <footer>
+        <p>Network Topology, Ella Liu 2018</p>
+      </footer>
+
+    </body>
+</html>
