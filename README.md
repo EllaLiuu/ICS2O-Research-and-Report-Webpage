@@ -2,9 +2,9 @@
 This is where I'm going to put my webpage for the research and report webpage. My topic is Topologies.
 [GitHub](https://ellaliuu.github.io/ICS2O-Research-and-Report-Webpage/Topology-Report.html)
 
-<b>Personal Reflection Log</b><br>
+<b><u>Personal Reflection Log</u></b><br>
 
-What I learned:
+<b>What I learned:</b>
 
 <p>Throughout this activity I have learned many new things about hardware, networking and operating systems. The subject that I received for my website was network topologies and obviously after doing lots of research on this subject, I have learned tons about it. More specifically, I learned about the different types of topologies and how they work. Plus, I found out the pros and cons of each type and that let me understand why different types of topologies were used in different situations. Also, while designing the website, I learned that designing a relatively nice website on HTML takes a lot of time. Sure, it’s easy to make a simple website on HTML but when it was time to add the stylesheet and make the website nice, it was extremely time consuming. Since I was dealing with many pictures and designs, I had to do a lot of adjusting to make sure that the pictures worked fine and that the colours worked together. Plus, I learned that the desktop screen size has a huge impact on the website. When I worked from different computers, the layout of my website kept changing since some of the screen sizes were smaller or larger. Therefore, I learned that making a responsive website was a good idea since it could be viewed on any device and the format would not get messed up. </p>
 
@@ -12,7 +12,7 @@ What I learned:
 
 <p>When it was time to go around the class and look at other people’s projects I got to learn some very basic information about hardware, operating systems and networks. While going around, I mostly looked for the basic definition of the subject of their website. Also, I tried to find the basic function of the subject.</p>
 
-What I want to learn more about:
+<b>What I want to learn more about:</b>
 
 <p>After this assignment, I learned some new information. However, there is still a lot I want to learn about making a website using HTML and information about hardware, operating systems and networking. In terms of using HTML, I want to learn how to make a responsive website and learn even more tags and CSS properties to make my websites look even more professional and nice. I don’t think Khan Academy covers this, so I would have to reach to another learning site to figure how to do these things. Also, I would like to practice making websites more often so I could make them more quick and efficiently. </p>
 
