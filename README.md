@@ -2,7 +2,7 @@
 This is where I'm going to put my webpage for the research and report webpage. My topic is Topologies.
 [GitHub](https://ellaliuu.github.io/ICS2O-Research-and-Report-Webpage/Topology-Report.html)
 
-<b><u>Personal Reflection Log</u></b><br>
+<u><b>Personal Reflection Log</b></u><br>
 
 <b>What I learned:</b>
 
